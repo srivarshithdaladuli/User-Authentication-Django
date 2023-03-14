@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="text-center mt-4 mb-4">
+    <h2 class="text-muted">Edit Profile</h2>
+</div>
+<div class="col-md-6 offset-md-3 mb-4">
+    <form action="{% url 'edit_profile' %}" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-secondary mb-3">Update</button>
+        <p><a href="{% url 'change_password' %}">Click Here</a> To Change Your Password </p>
+    </form>
+</div>
+{% endblock content %}
