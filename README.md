@@ -106,7 +106,7 @@ We welcome contributions to this project. If you find any issues or have suggest
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
+This project is licensed under the [MIT License](https://github.com/srivarshithdaladuli/User-Authentication-Django/blob/master/LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
 
 ---
 
